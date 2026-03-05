@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geoportal Chorrillos</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-content">
+            <div class="logo">
+                <i class="fas fa-map-marked-alt"></i>
+                <h1>Chorrillos</h1>
+            </div>
+
+        </div>
+    </header>
+
+    <div class="main-container">
+        <aside class="sidebar">
+            <div class="panel">
+                <div class="panel-header">
+                    <i class="fas fa-map"></i>
+                    <h3>Mapa Base</h3>
+                </div>
+                <div class="panel-body">
+                    <div id="basemaps" class="basemap-grid"></div>
+                </div>
+            </div>
+
+            <div class="panel">
+                <div class="panel-header">
+                    <i class="fas fa-layer-group"></i>
+                    <h3>Capas</h3>
+                </div>
+                <div class="panel-body">
+                    <div id="layers" class="layers-container"></div>
+                </div>
+            </div>
+
+            <div class="panel" id="filtros-panel">
+                <div class="panel-header">
+                    <i class="fas fa-filter"></i>
+                    <h3>Filtros de Oferta</h3>
+                </div>
+                <div class="panel-body">
+                    <div class="filter-form">
+                        <div class="form-group">
+                            <label for="filter-tipo">Tipo</label>
+                            <select id="filter-tipo" class="form-select">
+                                <option value="">Todos</option>
+                                <option value="1">Venta Terreno</option>
+                                <option value="2">Venta Casa</option>
+                                <option value="3">Venta Departamento</option>
+                                <option value="4">Alquiler Departamento</option>
+                                <option value="5">Alquiler Habitación</option>
+                                <option value="6">Alquiler Terreno</option>
+                                <option value="7">Alquiler Local Comercial</option>
+                                <option value="8">Venta de Local Comercial</option>
+                                <option value="9">Alquiler de casa</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="filter-fuente">Fuente</label>
+                            <select id="filter-fuente" class="form-select">
+                                <option value="">Todas</option>
+                                <option value="urbania">Urbania</option>
+                                <option value="adondevivir">AdondeVivir</option>
+                            </select>
+                        </div>
+
+                        <button type="button" id="btn-apply-filter" class="btn btn-primary"
+                            style="width: 100%; justify-content: center; margin-top: 10px;">
+                            <i class="fas fa-search"></i>
+                            Aplicar Filtro
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="status" class="status-panel"></div>
+        </aside>
+
+        <main class="map-container">
+            <div id="map" class="map"></div>
+        </main>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
