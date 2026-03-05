@@ -329,15 +329,15 @@ function updateLegend(visibleLayers) {
                 <h4>Clasificación de Ofertas</h4>
                 <div class="legend-section">
                     <strong>Por Tipo (Color)</strong>
-                    <div class="legend-item"><i style="background: #8b4513"></i> Venta Terreno</div>
-                    <div class="legend-item"><i style="background: #ef4444"></i> Venta Casa</div>
-                    <div class="legend-item"><i style="background: #3b82f6"></i> Venta Departamento</div>
-                    <div class="legend-item"><i style="background: #10b981"></i> Alquiler Departamento</div>
-                    <div class="legend-item"><i style="background: #eab308"></i> Alquiler Habitación</div>
-                    <div class="legend-item"><i style="background: #d97706"></i> Alquiler Terreno</div>
-                    <div class="legend-item"><i style="background: #8b5cf6"></i> Alquiler Local Comercial</div>
-                    <div class="legend-item"><i style="background: #6366f1"></i> Venta de Local Comercial</div>
-                    <div class="legend-item"><i style="background: #f163d2ff"></i> Alquiler de casa</div>
+                    <div class="legend-item"><i style="background: #8b4513"></i> Venta Terreno - 1</div>
+                    <div class="legend-item"><i style="background: #ef4444"></i> Venta Casa - 2</div>
+                    <div class="legend-item"><i style="background: #3b82f6"></i> Venta Departamento - 3</div>
+                    <div class="legend-item"><i style="background: #10b981"></i> Alquiler Departamento - 4</div>
+                    <div class="legend-item"><i style="background: #eab308"></i> Alquiler Habitación - 5</div>
+                    <div class="legend-item"><i style="background: #d97706"></i> Alquiler Terreno - 6</div>
+                    <div class="legend-item"><i style="background: #8b5cf6"></i> Alquiler Local Comercial - 7</div>
+                    <div class="legend-item"><i style="background: #6366f1"></i> Venta de Local Comercial - 8</div>
+                    <div class="legend-item"><i style="background: #f163d2ff"></i> Alquiler de casa - 9</div>
 
                     <div class="legend-item"><i style="background: #6b7280"></i> Otros</div>
                 </div>
