@@ -294,6 +294,7 @@ function getOfertaStyle(item) {
     else if (tipo === '6') fillColor = '#d97706';
     else if (tipo === '7') fillColor = '#8b5cf6';
     else if (tipo === '8') fillColor = '#6366f1';
+    else if (tipo === '9') fillColor = '#f163d2ff';
 
     let color = '#ffffff';
     if (fuente.includes('urbania')) color = '#f97316';
