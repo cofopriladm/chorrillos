@@ -299,6 +299,7 @@ function getOfertaStyle(item) {
     let color = '#ffffff';
     if (fuente.includes('urbania')) color = '#f97316';
     else if (fuente.includes('adonde')) color = '#e11d48';
+    else if (fuente.includes('remax')) color = '#1d4ee1ff';
 
     return {
         radius: 7,
@@ -345,6 +346,8 @@ function updateLegend(visibleLayers) {
                     <strong>Por Fuente</strong>
                     <div class="legend-item"><i class="border-icon" style="border-color: #f97316"></i> Urbania</div>
                     <div class="legend-item"><i class="border-icon" style="border-color: #e11d48"></i> AdondeVivir</div>
+                    <div class="legend-item"><i class="border-icon" style="border-color: #1d4ee1ff"></i> Remax</div>
+
                     <div class="legend-item"><i class="border-icon" style="border-color: #ffffff"></i> Otra</div>
                 </div>
             `;
